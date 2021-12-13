@@ -2,7 +2,7 @@
 """
 Created on Mon Dec 13 20:10:22 2021
 
-@author: Andrada Mitea
+@author: Andrada Mitea    
 """
 
 import pandas as pd
@@ -19,7 +19,7 @@ plt.xlabel('Airliner Fatalities')
 plt.ylabel('Airliner Acctidents')
 
 
-X = df.iloc[:,0].values
+X = df.iloc[:,0].values 
 y=df.iloc[:,1].values
 X=np.reshape(X,(-1,1))
 y=np.reshape(y,(-1,1))
